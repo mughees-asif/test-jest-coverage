@@ -17,3 +17,7 @@ export function divide(a: number, b: number): number {
 export function pow(a: number, b: number): number {
     return a ** b;
 }
+
+export function sqrt(a: number): number {
+    return a ** -2;
+}
